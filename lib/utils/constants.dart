@@ -1,14 +1,15 @@
 class AppConstants {
   // API Base URL - GANTI INI DENGAN URL BACKEND ANDA
-  static const String baseUrl = 'https://your-backend-url.com/api';
+  static const String baseUrl = 'https://coltishly-momentous-gabrielle.ngrok-free.dev';
+  
   
   // Endpoints
-  static const String loginEndpoint = '/login';
-  static const String registerEndpoint = '/register';
-  static const String logoutEndpoint = '/logout';
-  static const String aduanEndpoint = '/aduan';
-  static const String wargaAduanEndpoint = '/warga/aduan';
-  static const String recommendationEndpoint = '/admin/recommendations';
+    static const String loginEndpoint = '/api/login';
+  static const String registerEndpoint = '/api/register';
+  static const String logoutEndpoint = '/api/logout';
+  static const String aduanEndpoint = '/api/aduan';
+  static const String wargaAduanEndpoint = '/api/warga/aduan';
+  static const String recommendationEndpoint = '/api/admin/recommendations';
   
   // Status
   static const int statusPending = 1;
